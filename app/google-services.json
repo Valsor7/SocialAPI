@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "879776103282",
+    "project_id": "socialapp-9d813"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879776103282:android:e1f3cfeaf677a3bc",
+        "android_client_info": {
+          "package_name": "com.example.yaroslav.socialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879776103282-ic9bfrldafu3tgha5pf7c9cr32asqkjv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yaroslav.socialapp",
+            "certificate_hash": "ABAAC2921D35BA9631BB36700DB3903CC0536DC1"
+          }
+        },
+        {
+          "client_id": "879776103282-e7vt86n8l0bnhf5lbrdp6sd6ukpvcc19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpeGHg3DPkfoDGoP9YCQN2sMEVatEEiaM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

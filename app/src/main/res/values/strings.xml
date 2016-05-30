@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SocialApp</string>
+    <string name="facebook_app_id">1735829396660678</string>
+    <string name="log_out">log out</string>
+    <string name="share">Share</string>
+    <string name="shareText">share</string>
+    <string name="share_btn_text">share</string>
+</resources>
