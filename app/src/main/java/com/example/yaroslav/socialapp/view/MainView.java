@@ -1,10 +1,10 @@
 package com.example.yaroslav.socialapp.view;
 
-import com.example.yaroslav.socialapp.model.data.User;
+import com.example.yaroslav.socialapp.model.data.MyUser;
 
 /**
  * Created by Yaroslav on 26-May-16.
  */
 public interface MainView {
-    void setUser(User user);
+    void setMyUser(MyUser myUser);
 }

@@ -2,7 +2,6 @@ package com.example.yaroslav.socialapp.model;
 
 import android.content.Context;
 import android.os.Bundle;
-import com.example.yaroslav.socialapp.presenter.facebook.FbPresenter;
 import com.facebook.GraphRequest;
 import com.facebook.login.LoginResult;
 
@@ -10,7 +9,6 @@ import com.facebook.login.LoginResult;
 public class FacebookRequesterImpl implements FacebookRequester  {
     Context c;
     public FacebookRequesterImpl(Context c){
-
         this.c = c;
     }
 
