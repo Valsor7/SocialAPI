@@ -75,6 +75,7 @@ public class AccountActivity extends AppCompatActivity implements MainView{
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == REQ_GPLUS_PHOTO){
             if (resultCode == RESULT_OK) {
+                presenter.onResult(data);
                 Uri imgUri = data.getData();
                 ContentResolver cr = this.getContentResolver();
                 String mimeType = cr.getType(imgUri);

@@ -9,8 +9,8 @@ import android.util.Log;
 
 import com.example.yaroslav.socialapp.R;
 import com.example.yaroslav.socialapp.Utility;
-import com.example.yaroslav.socialapp.model.FacebookRequester;
-import com.example.yaroslav.socialapp.model.FacebookRequesterImpl;
+import com.example.yaroslav.socialapp.model.fb_requester.FacebookRequester;
+import com.example.yaroslav.socialapp.model.fb_requester.FacebookRequesterImpl;
 import com.example.yaroslav.socialapp.model.data.MyUser;
 import com.example.yaroslav.socialapp.model.data.facebook.FbFields;
 import com.example.yaroslav.socialapp.model.data.facebook.FbPermissions;

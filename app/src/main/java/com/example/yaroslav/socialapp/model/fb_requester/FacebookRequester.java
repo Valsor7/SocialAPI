@@ -1,4 +1,4 @@
-package com.example.yaroslav.socialapp.model;
+package com.example.yaroslav.socialapp.model.fb_requester;
 
 import com.facebook.GraphRequest;
 import com.facebook.login.LoginResult;

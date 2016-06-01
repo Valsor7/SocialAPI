@@ -44,10 +44,4 @@ public class Utility {
         editor.apply();
     }
 
-    public String formatDate(Date date){
-        SimpleDateFormat formatter = new SimpleDateFormat("mm/DD/yyyy", Locale.getDefault());
-        String formattedDate = formatter.format(date);
-        return formattedDate;
-    }
-
 }
