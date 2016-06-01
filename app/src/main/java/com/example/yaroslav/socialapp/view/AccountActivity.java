@@ -142,4 +142,9 @@ public class AccountActivity extends AppCompatActivity implements MainView{
     public void setMyUser(MyUser myUser) {
 
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
 }

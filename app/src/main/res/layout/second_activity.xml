@@ -14,7 +14,7 @@
             android:paddingRight="0dp"
             android:text="Full name"
             android:textSize="20sp"
-            android:id="@+id/nameView"
+            android:id="@+id/tvName"
             android:layout_gravity="center_horizontal" />
 
         <TextView

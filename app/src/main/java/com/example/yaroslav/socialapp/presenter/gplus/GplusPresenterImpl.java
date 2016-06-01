@@ -34,18 +34,18 @@ public class GplusPresenterImpl implements Presenter, GoogleApiClient.OnConnecti
 
     @Override
     public void doLogin() {
-            if (gApiClient == null) {
-                GoogleSignInOptions options = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                        .requestEmail()
-                        .build();
+        if (gApiClient == null) {
+            GoogleSignInOptions options = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                    .requestEmail()
+                    .build();
 
-                gApiClient = new GoogleApiClient.Builder(aContext)
-                        .enableAutoManage((FragmentActivity) aContext, this)
-                        .addApi(Auth.GOOGLE_SIGN_IN_API, options)
-                        .build();
-            }
-            Intent gActivityIntent = Auth.GoogleSignInApi.getSignInIntent(gApiClient);
-            aContext.startActivityForResult(gActivityIntent, GPLUS_REQUEST);
+            gApiClient = new GoogleApiClient.Builder(aContext)
+                    .enableAutoManage((FragmentActivity) aContext, this)
+                    .addApi(Auth.GOOGLE_SIGN_IN_API, options)
+                    .build();
+        }
+        Intent gActivityIntent = Auth.GoogleSignInApi.getSignInIntent(gApiClient);
+        aContext.startActivityForResult(gActivityIntent, GPLUS_REQUEST);
     }
 
     public void onResult(Intent resultIntent){
